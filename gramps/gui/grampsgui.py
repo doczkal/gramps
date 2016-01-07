@@ -82,6 +82,9 @@ try:
     gi.require_version('Pango', '1.0')
     gi.require_version('PangoCairo', '1.0')
     gi.require_version('Gtk', '3.0')
+    gi.require_version('GtkSpell', '3.0')
+    gi.require_version('GExiv2', '0.10')
+    gi.require_version('OsmGpsMap', '1.0')
     #It is important to import Pango before Gtk, or some things start to go
     #wrong in GTK3 !
     from gi.repository import Pango, PangoCairo
